@@ -1,4 +1,4 @@
-_const wordpos = new WordPOS({
+const wordpos = new WordPOS({
   dictPath: "https://cdn.jsdelivr.net/npm/wordpos-web@1.0.2/dict"
 })
 
@@ -14,7 +14,7 @@ $(document).ready(() => {
       const rightGradient = sentence.length
 
       $("body").css("background-image", `linear-gradient(to right,
-        hsl(${leftGradient}, 100%, 60%), hsl(${rightGradient}, 100%, 60%)
+        hsl(${leftGradient}, 100%, 50%), hsl(${rightGradient}, 100%, 50%)
       `)
     })
   }
