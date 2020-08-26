@@ -3,11 +3,11 @@ html, body {
 }
 
 textarea {
-   background: none;
+  background: none;
   outline: 0;
   border: 0;
-  width: 100%;
+  font-size: 48px;
   height: 100%;
-  font-size: 24px;
-  padding : 1px;
+  width: 100%;
+  padding: 0;
 }
